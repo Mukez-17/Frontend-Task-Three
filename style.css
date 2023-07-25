@@ -1,0 +1,346 @@
+body{
+    font-family: "Montserrat";
+    max-width: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Black";
+}
+
+.navigation-bar{
+    background-color: lightsteelblue;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 450%;
+}
+
+.navbar-brand{
+    position: absolute;
+    font-family: "Ubuntu";
+    top: -5px;
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon{
+    width: 1em !important;
+    height: 1em !important;
+}
+
+.navbar-nav{
+    margin-left: 50%;
+}
+
+.btn{
+    position: absolute;
+    margin-right: 5%;
+    margin-left: 100%;
+    top: 10px;
+    width: 80px;
+}
+
+.nav-item{
+    text-align: center;
+    padding: 0;
+    width: 120px;
+}
+
+.nav-link, .btn{
+    font-size: 1.1rem;
+    font-family: "Montserrat-light";
+}
+
+/* title */
+
+.title_row{
+    padding: 0 15%;
+    background-color: lightsteelblue;
+}
+
+.title-image{
+    transform: rotate(25deg);
+    padding-top: 0px;
+}
+
+.title-head{
+    font-size: 3em;
+    line-height: 1.5;
+}
+
+#top-container .navigation-bar{
+    padding: 3% 15% 7% 10%;
+}
+
+.title-content{
+    padding-top: 50px;
+}
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.features{
+    font-weight: 2rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.features-icon{
+    color: #ef8172;
+    position: relative;
+    left: 40%;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.features-para{
+    color: #8f8f8f;
+    text-align: center;
+    font-weight: 1.25rem;
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align:center;
+    color:#fff;
+    background-color: lightsteelblue;
+}
+
+.testimonials-head{
+    font-size:3rem;
+}
+
+.testimonials-image{
+    width: 15%;
+    height:15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 17%;
+}
+
+/* Products */
+
+#Products{
+    padding: 5% 7%;
+}
+
+.card-product{
+    padding-bottom: 7%;
+    text-align: left;
+}
+
+.product-img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.card-product:hover{
+    color:rgb(199, 187, 19);
+}
+
+.card-img-top{
+    width: 200px;
+    height: 250px;
+}
+
+.card-img-3{
+    height: 275px !important;
+}
+
+.card-body button{
+    position: absolute;
+    float: right;
+    margin-top: 95%;
+    margin-left: 65%;
+    width: 25%;
+}
+
+.row-button-1{
+    margin-top: 88% !important;
+}
+
+/* About Us */
+
+#AboutUs{
+    padding: 5% 15%;
+    text-align: justify;
+    background-color: lightsteelblue;
+}
+
+.about_us_row{
+    padding: 0 1%;
+}
+
+.about_us_img{
+    margin-left: 20%;
+}
+
+.about_us{
+    width: 40%;
+}
+
+.about_us_content{
+    padding: 10% 9%;
+    width: 100%;
+    height: 50%;
+}
+
+/* Contact Us */
+
+#form{
+    padding: 0 30% 5%;
+}
+
+h2{
+    text-align: center;
+    padding: 5%;
+}
+
+.form-input{
+    padding: 5% 30%;
+    text-align: center;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 8%;
+    border-color: red;
+    background-color: gainsboro;
+}
+
+.form-button{
+    position: relative;
+    width: 30% !important;
+    margin-left: 35%;
+}
+
+/*footer*/
+
+#footer{
+    text-align: center;
+    background-color: lightsteelblue;
+    margin-top: 25px;
+    padding: 5% 0 3% 0;
+}
+
+.icons{
+    padding: 0 10px;
+}
+
+.footer{
+    font-weight: 1.5rem;
+}
+
+.download-buttons{
+    margin:2% 3%;
+}
+
+#footer p{
+    margin: 0;
+}
+
+/* Media Query */
+
+@media (max-width: 1024px){
+    .btn{
+        margin-left: 100%;
+    }
+    .navbar-nav{
+        margin-left: 40%;
+    }
+    .nav-item{
+        width: 100px;
+    }
+    .card-1{
+        height: 470px;
+    }
+    .card-img-3{
+        height: 250px !important;
+    }
+    .card-body button{
+        margin-top: 400px !important;
+        margin-left: 150px !important;
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 768px){
+    .btn{
+        margin-right: 0px;
+        right: 0px;
+    }
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .navbar-brand{
+        margin-left: 15%;
+    }
+    #top-container, #features, #testimonials, #Products, #AboutUs, #form, #footer{
+        width: 925px;
+    }
+    #form{
+        padding: 0 20% 5%;
+    }
+    .form-button{
+        margin-left: 25%;
+        width: 50% !important;
+        margin-bottom: 20% !important;
+    }
+    .about_us_img{
+        margin-left: 30%;
+    }
+    .features-icon{
+        left: 45%;
+    }
+}
+
+@media (max-width: 450px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    .navbar-brand{
+        margin-left: 20%;
+    }
+    #top-container, #features, #testimonials, #Products, #AboutUs, #form, #footer{
+        width: 480px;
+    }
+    .button1{
+        margin-top: 85% !important;
+    }
+    .form-button{
+        margin-left: 25%;
+        width: 50% !important;
+        margin-bottom: 20% !important;
+    }
+    .about_us_img{
+        margin-left: 20% !important;
+    }
+    .card-body button{
+        margin-top: 380px !important;
+        margin-left: 300px !important;
+        width: 100px !important;
+        left: 0;
+    }
+    .row-button-1{
+        margin-top: -50px !important;
+    }
+    .row-button-2{
+        top: 30px;
+    }
+}
